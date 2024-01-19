@@ -6,14 +6,17 @@
   height: 100%;
   background-color: rgba($color: #fff, $alpha: .6);
   z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slideSty {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -188px;
-  margin-top: -176px;
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // margin-left: -188px;
+  // margin-top: -176px;
   z-index: 99;
   background-color: #fff;
   width: 278px;
